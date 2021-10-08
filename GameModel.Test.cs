@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace GameStore.Tests
 {
-    public class Tests
+    public class GameModel.Test
     {
         [Test]
         public void CreateGame_InputEmptyString_OutputEmptyString()
