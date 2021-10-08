@@ -22,7 +22,7 @@ namespace GameStore.Tests
         }
 
         [Test]
-        public void CreateGame_InputNothing_OutputNothing()
+        public void CreateGame_InputNothing_OutputNull()
         {
             //arrange
             string actual;
