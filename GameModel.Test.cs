@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace GameStore.Tests
 {
-    public class GameModel.Test
+    public class GameModelTests
     {
         [Test]
         public void CreateGame_InputEmptyString_OutputEmptyString()
@@ -26,14 +26,14 @@ namespace GameStore.Tests
         {
             //arrange
             string actual;
-            string expected = "";
+            string expected = null;
             Models.Game g = new Models.Game();
 
             //act
             actual = g.GameStatusCode;
 
             //assert
-            Assert.AreNotEqual(actual, expected);
+            Assert.AreEqual(actual, expected);
         }
     }
 }
