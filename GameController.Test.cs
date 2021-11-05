@@ -14,7 +14,8 @@ namespace GameStore.Tests
         // however, this feature cannot be implemented at the moment
         //
         // solutions:
-        // 1. refer to here for how to: https://www.youtube.com/watch?v=mCUNrRtVVWY
+        // 1a. refer to here for how to: https://www.youtube.com/watch?v=mCUNrRtVVWY
+        // 1b. or here https://scottdorman.blog/2016/03/17/integrating-asp-net-core-dependency-injection-in-mvc-4/
         // 2. migrate to mvc.net core as it is native
         [Test]
         public void GameController_InputIndex_ExpectIndex()

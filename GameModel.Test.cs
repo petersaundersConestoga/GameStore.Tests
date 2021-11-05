@@ -648,9 +648,9 @@ namespace GameStore.Tests
             CreateGame_InputEnglishDescriptionWhatDoesTheAmericanDreamMeanQuestion_OutputEnglishDescriptionWhatDoesTheAmericanDreamMeanQuestion()
         {
             //arrange
-            string input = "What does the american dream mean?";
+            string input = "What does the American dream mean?";
             string actual;
-            string expected = "What does the american dream mean?";
+            string expected = "What does the American dream mean?";
             Game g = new Game();
 
             //act
