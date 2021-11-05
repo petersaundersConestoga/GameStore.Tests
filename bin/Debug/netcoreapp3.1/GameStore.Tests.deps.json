@@ -891,7 +891,7 @@
         "runtime": {
           "EntityFramework.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.2.61023.0"
+            "fileVersion": "6.1.40302.0"
           }
         }
       },
