@@ -32,7 +32,7 @@ namespace GameStore.Tests
             string inGameStatusCode = "";
             string actual;
             string expected = "";
-            Models.Game g = new Models.Game();
+            Game g = new Models.Game();
 
             //act
             g.GameStatusCode = inGameStatusCode;
