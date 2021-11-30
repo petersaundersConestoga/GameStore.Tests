@@ -16,6 +16,7 @@ namespace GameStore.Tests
             Type actual = null;
             Type expected = typeof(Guid);
             Game g = new Game();
+            bool valid = false;
 
             //act
             g.Guid = inGameGuid;
